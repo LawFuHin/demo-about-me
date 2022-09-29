@@ -78,6 +78,7 @@ $( "#play-left" ).click(function() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen></iframe>
       </div>` );
+      $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 1</h1>`);
 
     }
 
@@ -91,6 +92,7 @@ $( "#play-left" ).click(function() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope;"
             allowfullscreen></iframe>
         </div>` );
+        $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 2</h1>`);
 
       }
 
@@ -104,6 +106,7 @@ $( "#play-left" ).click(function() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen></iframe>
       </div>` );
+      $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 3</h1>`);
 
       }
       
@@ -117,6 +120,7 @@ $( "#play-left" ).click(function() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen></iframe>
       </div>` );
+      $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 4</h1>`);
 
     }
 
@@ -139,7 +143,7 @@ $( "#play-left" ).click(function() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen></iframe>
       </div>` );
-
+      $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 1</h1>`);
     }
 
       if (playList==2) {
@@ -152,7 +156,8 @@ $( "#play-left" ).click(function() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope;"
             allowfullscreen></iframe>
         </div>` );
-
+            
+          $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 2</h1>`);
       }
 
       if (playList==3) {
@@ -165,6 +170,7 @@ $( "#play-left" ).click(function() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen></iframe>
       </div>` );
+      $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 3</h1>`);
 
       }
       
@@ -178,6 +184,7 @@ $( "#play-left" ).click(function() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen></iframe>
       </div>` );
+      $("#video-title").replaceWith(`<h1 class="display-6" id="video-title">Project 4</h1>`);
 
     }
       
